@@ -15,14 +15,10 @@
             3. \' = print ' 
             4. \" print "    """
 
-
-
 print('Hello Welcome to Python world',end=' ')
 
-print("""to take challenge 150 Days python code 
-         for bigginer to advance level including \n \t python framework \'Django\', \"Flask\", Numpy, Pandas""")
-
-
+print("""to take challenge 150 Days python code for bigginer to advance level 
+        including \n \t python framework \'Django\', \"Flask\", Numpy, Pandas""")
 
 """Type casting :- convert type of data
     we can convert type from smaller to higher
