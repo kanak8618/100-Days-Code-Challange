@@ -38,7 +38,7 @@ while True:
             print(f'{num1} / {num2} = {div(num1, num2)}') 
             
         next = input('You Want To Continue Y/N')
-        if next == 'no':
+        if next == 'no' or 'n':
             break
     else:
         print('Invalid Choice')
