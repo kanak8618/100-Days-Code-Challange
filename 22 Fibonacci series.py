@@ -6,7 +6,7 @@ def recur_fibo(n):
     else:
         return(recur_fibo(n-1) + recur_fibo(n-2))
 
-nterms = int(input("Enter the number of terms (greater than 0): "))
+nterms = int(input("Enter the number of terms (> 0): "))
 
 if nterms <= 0:
     print("Plese enter a positive integer")
