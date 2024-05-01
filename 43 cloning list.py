@@ -2,7 +2,7 @@
 
 original_list = [1,2,3,4,5]
 
-# 1. Using Using the Slice Operator
+# 1. Using the Slice Operator
 copy_list = original_list[:]
 print('Cloned List',copy_list)
 
