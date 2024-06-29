@@ -13,7 +13,6 @@ print( a,"\n",b,"\n",c,"\n",d)
 
 # Swap two tuples in Python
 tuple1 = (11, 22)
- 
 tuple2 = (99, 88)
 tuple1,tuple2=tuple2,tuple1
 print("tuple1",tuple1)
@@ -26,8 +25,9 @@ print(tuple2)
 
 #Modify the tuple
 tuple1 = (11, [22, 33], 44, 55)
-tuple1[1][0]=222
-tuple
+tuple1[1][0] = 222
+print(tuple1)
+
 
 # Sort a tuple of tuples by 2nd item
 tuple1 = (('a', 23),('b', 37),('c', 11), ('d',29))

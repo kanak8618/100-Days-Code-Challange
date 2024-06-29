@@ -18,18 +18,4 @@ num2=random.uniform(9.5,99.5)
 num3=num1+num2
 print(num3)
 
-#Generate a random Password which meets the following conditions
-import random
-import string
-def randomPassword():
-    password=random.sample(randomSource,6)
-    randomSource=string.ascii_letters+string.digits+string.punctuation
-    password+=random.sample(string.ascii_uppercase,2)
-    password+=random.choice(string.digits)
-    password+=random.choice(string.punctuation)
-    passwordList=list(password)
-    random.SystemRandom().shuffle(passwordList)
-    password="".join(passwordList)
-    return password
-print("password is: ",randomPassword())
 
